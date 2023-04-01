@@ -75,8 +75,9 @@ puts "=============================================================="
 winning_ticket_number = 13
 puts winning_ticket_number.even? 
 
+#
 jersey_number = 42
-puts jersey_number.
+puts jersey_number.succ 
 
 puts "=============================================================="
 
@@ -87,3 +88,9 @@ puts "=============================================================="
 # Include comments above each method call explaining the impact and return value of that method.
 
 #
+lotto_numbers = [7, 34.54, 40, 4.2]
+lotto_numbers.sum
+
+#
+draft_order = ["Bears", "Broncos", "Cowboys", "Dolphins", "Colts"]
+draft_order.shuffle!
