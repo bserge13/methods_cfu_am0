@@ -8,19 +8,26 @@
 # The return value is "hello world"
 "Hello World".downcase
 
-
+# The include? method is being called on the string "Hello World"
+# "Hello" is the string argument. include? is asking whether the argument is present.
+# The return is a boolean, true
 "Hello World".include?("Hello")
 
-
+# The .end_with? method is calling on the string "Hello World"
+# "Hello" is once again the string argument here. end_with? is asking here whether the string "Hello World" ends with the argument, "Hello."
+# The return of this boolean is, false
 "Hello World".end_with?("Hello")
 
-
+# The .end_with? method is calling again on the string "Hello World"
+# "rld" is the argument; the method is nce again asking if the string "Hello world" ends with "rld."
+# The return for this will be, true
 "Hello World".end_with?("rld")
 
-
+# This method, .even?, is calling on an integar to see whether or not is an even number.
+# The return will be a boolean response 
 12.even?
 
-
+# The method.next will call upon the next number in succession of the integar it's assigned to.
 18.next
 
 
