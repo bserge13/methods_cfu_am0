@@ -46,6 +46,12 @@
 first_name = "Jeff"
 puts first_name.start_with?("J")
 
+# The ends_with? method is called on the nfl_team variable, storing the string object "Bears".
+# The ends_with? method returns true if the data in the nfl_team variable ends with the argument passed.
+# Here, the return value is false, "Bears" does not end in "chi".
+# The puts command prints the return value of the ends_with? method with, false. 
+nfl_team = "Bears"
+puts nfl_team.ends_with?("chi")
 
 
 # SECTION 3: Calling methods on variables assigned to integers.
