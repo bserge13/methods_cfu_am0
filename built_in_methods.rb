@@ -8,6 +8,8 @@
 # The return value is "hello world"
 "Hello World".downcase
 
+puts "=============================================================="
+
 # The include? method is being called on the string "Hello World"
 # "Hello" is the string argument. include? is asking whether the argument is present.
 # The return is a boolean, true
@@ -30,7 +32,7 @@
 # The method.next will call upon the next number in succession of the integar it's assigned to.
 18.next
 
-
+puts "=============================================================="
 
 # SECTION 2: Calling methods on variables assigned to strings.
 # Declare 2 variables assigned to string objects.
@@ -46,6 +48,8 @@
 first_name = "Jeff"
 puts first_name.start_with?("J")
 
+puts "=============================================================="
+
 # The ends_with? method is called on the nfl_team variable, storing the string object "Bears".
 # The ends_with? method returns true if the data in the nfl_team variable ends with the argument passed.
 # Here, the return value is false, "Bears" does not end in "chi".
@@ -54,16 +58,26 @@ nfl_team = "Bears"
 puts nfl_team.ends_with?("chi")
 
 
+nfl_team = "Chicago Bears"
+puts nfl_team.count "Chicago"
+
+puts "=============================================================="
+
 # SECTION 3: Calling methods on variables assigned to integers.
 # Declare 2 variables assigned to integer objects.
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
 
+#
 
+
+puts "=============================================================="
 
 # SECTION 4: Calling methods on variables assigned to arrays.
 # Declare 2 variables assigned to arrays.
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+#
