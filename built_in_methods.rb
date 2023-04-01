@@ -55,9 +55,11 @@ puts "=============================================================="
 # Here, the return value is false, "Bears" does not end in "chi".
 # The puts command prints the return value of the ends_with? method with, false. 
 nfl_team = "Bears"
-puts nfl_team.ends_with?("chi")
+puts nfl_team.end_with?("chi")
 
-
+# The count method is called on the nfl_team variable, storing the string object "Chicago Bears". 
+# The count method defines what characters to search for in the string and return with a total count.
+# Here the value is 8, as "Bears" contains the character "a" along with "Chicago". 
 nfl_team = "Chicago Bears"
 puts nfl_team.count "Chicago"
 
@@ -70,7 +72,11 @@ puts "=============================================================="
 # Include comments above each method call explaining the impact and return value of that method.
 
 #
+winning_ticket_number = 13
+puts winning_ticket_number.even? 
 
+jersey_number = 42
+puts jersey_number.
 
 puts "=============================================================="
 
