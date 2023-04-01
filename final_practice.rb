@@ -14,20 +14,27 @@ end
 
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
 def custom_greeting(name)
-    return "Well if it isn't that good boy, #{name}!"
+    return "Well if it isn't that goodest boy, #{name}!"
 end
-puts custom_greeting ("Loki")
+puts custom_greeting("Loki")
 # What is the return value of your method? "Well if it isn't that good boy, Loki!"
 # How many arguments did you pass your method? One, ("Loki")
 # What data type was your argument(s)? String
 
 
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
-def greet_person (name)
-# What is the return value of your method?
-# How many arguments did you pass your method?
-# What data type was your argument(s)?
+def greet_person
 
+    first = "Peter"
+    middle = "Agustus"
+    last = "Cotten-Tail III"
+    return "Hoppy Easter, #{first} #{middle} #{last}!!"
+end 
+
+puts greet_person
+# What is the return value of your method? "Hoppy Easter, Peter Agustus Cotten-Tail III!!!"
+# How many arguments did you pass your method? Three
+# What data type was your argument(s)? String
 
 # 4: Write a method named square that takes in one integer, and returns the square of that integer.
 # Bonus: Print a sentence that interpolates the return value of your square method.
