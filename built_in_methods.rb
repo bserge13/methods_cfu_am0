@@ -3,10 +3,9 @@
 # Then, in a ruby comment, write 1-2 sentences describing what is happening, using ALL the involved vocabulary terms you've learned in this lesson so far.
 
 # EXAMPLE
-# The downcase method is called on the string object "Hello World"
-# No arguments are passed; downcase has one clear job which is to lowercase all letters that exist in the String
-# The return value is "hello world"
-"Hello World".downcase
+# The .shuffle! method is calling on the string "Hello World"
+# "Hello" is once again the string argument here. end_with? is asking here whether the string "Hello World" ends with the argument, "Hello."
+# The return of this boolean is, false
 
 puts "=============================================================="
 
@@ -71,11 +70,15 @@ puts "=============================================================="
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
 
-#
-winning_ticket_number = 13
-puts winning_ticket_number.even? 
+# The even? command calls on the winning_ticket variable to see if the integeger stored (13) is an even number. 
+# Here the puts command prints the return value of the even? method to the console, with a boolean "False"
 
-#
+winning_ticket_number = 13
+puts winning_ticket_number.even?
+
+# The succ command calls on the jersey_number variable, which stores an integer, defining what number will follow "42".
+# here the puts command will print a return value, which is an integer, of "43" 
+
 jersey_number = 42
 puts jersey_number.succ 
 
@@ -87,10 +90,16 @@ puts "=============================================================="
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
 
-#
+# The .sum method is being called on the array assigned to the variable lotto_numbers.
+# This method will take the variables assigned and find the sum of all the (in this case) floats and integers.
+# The return of this method to the consule will be the number 85.74
+
 lotto_numbers = [7, 34.54, 40, 4.2]
 lotto_numbers.sum
 
-#
+# The .shuffle! method is calling on the array assigned to variable draft_order
+# shuffle! is taking the variables assigned and creating a new random order within the (). This method can be useful when needing to assign a numerical order randomly. 
+# The return of this method will be in completely random order, which will obviously increase as you assign more varriables to the array. 
+
 draft_order = ["Bears", "Broncos", "Cowboys", "Dolphins", "Colts"]
 draft_order.shuffle!
