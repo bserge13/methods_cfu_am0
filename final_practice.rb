@@ -6,10 +6,11 @@
 
 # 1: Write a method named greeting that returns a string with a general greeting. 
 def greeting 
-    return "Hi, welcome to Chilis!"
+    return "Hi, welcome to Chilis! "
 end
 
-puts greeting
+print "Everytime we go there for dinner they always yell, #{greeting}"
+puts "How about we go somewhere that DOESN'T scream, #{greeting}, at the top of their lungs?" 
 # What is the return value of your method? The return of my method is a string, "Hi, welcome to Chilis!"
 # How many arguments did you pass your method? No arguments were passed in this method. 
 
@@ -20,9 +21,9 @@ def custom_greeting(name)
 end
 
 puts custom_greeting("Loki")
-
-# What is the return value of your method? "Well if it isn't that good boy, Loki!"
-# How many arguments did you pass your method? One, ("Loki")
+puts custom_greeting("Brooks")
+# What is the return value of your method? "Well if it isn't that good boy, Loki!" "Well if it isn't that good boy, Brooks!"
+# How many arguments did you pass your method? Two, ("Loki") & ("Brooks")
 # What data type was your argument(s)? String
 
 
@@ -32,10 +33,12 @@ def greet_person
     first = "Peter"
     middle = "Agustus"
     last = "Cotten-Tail III"
-    return "Hoppy Easter, #{first} #{middle} #{last}!!"
+    return "Hoppy Easter from, #{first} #{middle} #{last}!! "
 end 
 
-puts greet_person
+puts greet_person 
+p "She got a card from the Easter Bunny that read, "
+print greet_person
 
 # What is the return value of your method? "Hoppy Easter, Peter Agustus Cotten-Tail III!!!"
 # How many arguments did you pass your method? Three
@@ -45,13 +48,14 @@ puts greet_person
 # Bonus: Print a sentence that interpolates the return value of your square method.
 
 def square
-sum.sqrt = 42
-    return "The square root of 42 is #{sum}"
+square = 42 * 42
+    return "42 squared is #{square}?? "
 end
 
-puts square 
+print square 
+puts "I never knew this: but did you know, #{square}!!"
 
-# What is the return value of your method?
+# What is the return value of your method? 1764
 # How many arguments did you pass your method? One 
 # What data type was your argument(s)? Integer 
 
