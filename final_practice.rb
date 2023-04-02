@@ -76,10 +76,30 @@ check_stock(1, "Salsa");
 # => "Salsa - running LOW"
 
 
-"coffee" = 4
-"Tortillais" = 3
-"Cheese" = 0
-"Salsa" = 1 
+def check_stock(amount, item)
+    if item == "Nike" && ammount >= 5
+    return "Nike is stocked"
+        
+    elsif item == "Puma" && ammount <= 4 
+        return "Puma -- Running low"
 
-def check_stock 
-    return "#{}"
+    elsif item == "Crocs" && smmount == 0
+            return "Crocs -- Out of stock. Do not re-order"
+
+    elsif item == "New Balance" && ammount <= 1 
+                return "New Balance -- RUNNING Low. Re-order ASAP"
+
+    else 
+        return "Item/ammount not accepted
+        
+    end
+end
+
+
+        
+
+
+
+
+
+    
