@@ -6,8 +6,10 @@
 
 # 1: Write a method named greeting that returns a string with a general greeting. 
 def greeting 
-    puts "Hi, welcome to Chilis!"
+    return "Hi, welcome to Chilis!"
 end
+
+puts greeting
 # What is the return value of your method? The return of my method is a string, "Hi, welcome to Chilis!"
 # How many arguments did you pass your method? No arguments were passed in this method. 
 
@@ -16,7 +18,9 @@ end
 def custom_greeting(name)
     return "Well if it isn't that goodest boy, #{name}!"
 end
+
 puts custom_greeting("Loki")
+
 # What is the return value of your method? "Well if it isn't that good boy, Loki!"
 # How many arguments did you pass your method? One, ("Loki")
 # What data type was your argument(s)? String
@@ -32,6 +36,7 @@ def greet_person
 end 
 
 puts greet_person
+
 # What is the return value of your method? "Hoppy Easter, Peter Agustus Cotten-Tail III!!!"
 # How many arguments did you pass your method? Three
 # What data type was your argument(s)? String
@@ -39,9 +44,16 @@ puts greet_person
 # 4: Write a method named square that takes in one integer, and returns the square of that integer.
 # Bonus: Print a sentence that interpolates the return value of your square method.
 
+def square
+sum.sqrt = 42
+    return "The square root of 42 is #{sum}"
+end
+
+puts square 
+
 # What is the return value of your method?
-# How many arguments did you pass your method?
-# What data type was your argument(s)?
+# How many arguments did you pass your method? One 
+# What data type was your argument(s)? Integer 
 
 
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
@@ -58,3 +70,12 @@ check_stock(0, "Cheese");
 
 check_stock(1, "Salsa");
 # => "Salsa - running LOW"
+
+
+"coffee" = 4
+"Tortillais" = 3
+"Cheese" = 0
+"Salsa" = 1 
+
+def check_stock 
+    return "#{}"
