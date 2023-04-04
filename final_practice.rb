@@ -77,23 +77,35 @@ check_stock(1, "Salsa");
 
 
 def check_stock(amount, item)
-    if item == "Nike" && ammount >= 5
-    return "Nike is stocked"
+    if item == "Coffee" && amount >= 4
+    return "Coffee is stocked"
         
-    elsif item == "Puma" && ammount <= 4 
-        return "Puma -- Running low"
+    elsif item == "Tortillas" && amount <= 3 
+        return "Tortillas -- running low"
 
-    elsif item == "Crocs" && smmount == 0
-            return "Crocs -- Out of stock. Do not re-order"
+    elsif item == "Cheese" && amount == 0
+            return "Cheese -- OUT of stock!"
 
-    elsif item == "New Balance" && ammount <= 1 
-                return "New Balance -- RUNNING Low. Re-order ASAP"
+    elsif item == "Salsa" && amount <= 1 
+                return "Salsa -- running LOW"
 
     else 
-        return "Item/ammount not accepted
+        return "Item/amount not accepted"
+    end 
+end 
         
-    end
-end
+
+check_stock(4, "Coffee");
+
+
+check_stock(3, "Tortillas");
+
+
+check_stock(0, "Cheese");
+
+
+check_stock(1, "Salsa");
+
 
 
         
